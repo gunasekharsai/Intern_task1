@@ -1,0 +1,321 @@
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }  
+
+.Head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0.588) ;
+    position: relative;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+   
+}
+.Header1{
+    display: flex;
+    flex-direction: row;
+}
+
+#icon{
+    margin-right: 10px;
+    padding: 0px 8px;
+    border-radius: 15px;
+}
+
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #333333;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+.icon-button:hover {
+    cursor: pointer;
+  }
+  
+ 
+  
+.icon-button__badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+.noti_style{
+    padding-left: 0;
+  }
+
+.bottom_drawer{
+    padding-right: 0;
+  }
+ 
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.588);
+}
+
+.profile{
+    margin :5px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+.profile2{
+    margin :5px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.story_add{
+   position:absolute;
+   margin-left: 40px;
+   background-color: yellow;
+   border-radius: 7.5px;
+   width: 15px;
+   height: 15px;
+
+}
+.Live_add{
+    position:absolute;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+    width: 30px;
+    height: 15px;
+}
+.profile-comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Names{
+    display: flex;
+    justify-content: center;
+   margin-top: 2px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.slide_bars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.barl{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.barr{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main_content{
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.588);
+    display: flex;
+    justify-content: center;
+    
+}
+.profile_photo{
+    margin :5px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.profile_photo:hover{
+    cursor: pointer;
+}
+.user_name{
+    margin-top: 8px;
+    font-size: small;
+    font-weight: 520;
+}
+.Location{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: -80px;
+    font-size: x-small;
+}
+.timestamp{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.options{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.options:hover{
+    cursor: pointer;
+}
+.img{
+    display: flex;;
+    justify-content: center;
+    margin-top: -50px;
+    background-color:rgba(240, 248, 255, 0.588) ;
+  
+}
+.Posted_img{
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.comments{
+    display: flex;
+    justify-content: center;
+    margin-left: -250px;
+    background-color: rgba(240, 248, 255, 0.588) ;
+    padding-top: 10px;
+    font-size: small;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 5px, 350px;
+    margin-left: -70px;
+    font-size: small;
+    padding-top: 10px;
+    background-color: rgba(240, 248, 255, 0.588) ;
+}
+.like{
+    display: flex ;
+   height: 50px;
+   width: 50px;
+   padding-left: 570px;
+   background-color: rgba(240, 248, 255, 0.588) ;
+  flex-direction: row;
+  
+
+}
+.nolike{
+    padding-left: 10px;
+    padding-right: 50px;
+   padding-top: 5px;
+   font-size: small;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:65px;
+}
+.add{
+    padding-right: 20px;
+}
+.add2{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: -25px;
+}
+ @media (max-width: 768px) {
+    .Head {
+        flex-direction:row;
+    }
+
+    .Header {
+        width: 100%;
+       
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    #icon {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .icon-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-button__badge {
+        top: -5px;
+        right: -5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .pacifico-regular {
+        font-size: 20px;
+    }
+    .like{
+        height: 50px;
+        width: 50px;
+        padding-left: 50px;
+        background-color: rgba(240, 248, 255, 0.588) ;
+     }
+    
+}
+
+
+@media (max-width: 480px) {
+    .icon-button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-button__badge {
+        width: 18px;
+        height: 18px;
+    }
+
+    .pacifico-regular {
+        font-size: 18px;
+    }
+}
